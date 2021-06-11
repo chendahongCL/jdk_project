@@ -10,7 +10,7 @@ public class Main {
         String str = "中国人寿保险股份有限公司";
         byte[] strByte = str.getBytes();
         String strEncode = encoder.encodeToString(strByte);
-        System.out.println(strEncode);
+        //System.out.println(strEncode);
         System.out.println(new String(decoder.decode(strEncode)));
     }
 }
