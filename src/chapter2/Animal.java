@@ -1,5 +1,9 @@
 package chapter2;
 
+/**
+ * jdk8接口default关键字 static方法
+ */
+
 public interface Animal {
     void eat();
 
